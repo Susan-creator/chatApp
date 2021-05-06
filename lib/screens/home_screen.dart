@@ -7,7 +7,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  //the introductory part of the appp build
+  //the entry point of the build method
   @override
   Widget build(BuildContext context) {
     return Scaffold(
