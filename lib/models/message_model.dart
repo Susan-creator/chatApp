@@ -7,7 +7,7 @@ class Message {
   final String text;
   final bool isLiked;
   final bool unread;
- 
+
   Message({
     this.sender,
     this.time,
@@ -102,14 +102,14 @@ List<Message> messages = [
   Message(
     sender: currentUser,
     time: '4:30 PM',
-    text: 'Just walked my doge. She was super duper cute. The best pupper!!',
+    text: 'Just walked my dog. She is super duper cute. The best puppy!!',
     isLiked: false,
     unread: true,
   ),
   Message(
     sender: james,
     time: '3:45 PM',
-    text: 'How\'s the doggo?',
+    text: 'How\'s the dog?',
     isLiked: false,
     unread: true,
   ),
