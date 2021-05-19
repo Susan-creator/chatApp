@@ -9,7 +9,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  //the entry point of the build method
   @override
   Widget build(BuildContext context) {
     return Scaffold(
